@@ -6,9 +6,17 @@ import java.util.*;
     Scanner sc=new Scanner(System.in);
     System.out.println("Enter Some Integer:");
     int value=sc.nextInt();
-    for(int i=1;i<=5;i++)
-    {
-      System.out.println("-> "+(i*value));
-    }
-  }  
+    
+      if(value!=0)
+      {
+      for(int i=1;i<=5;i++)
+        {
+          System.out.println("-> "+(i*value));
+        }
+      }
+      else
+      {
+      System.out.println("0 is not a valid input!!!");
+      }
+  }
 }  
